@@ -3,10 +3,10 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const Years = "1 Jan 2023
+const Year = "1 Jan 2024
 
 function countdown() {
-    const YearsDate = new Date(Years);
+    const YearsDate = new Date(Year);
     const currentDate = new Date();
 
     const totalSeconds = (YearsDate - currentDate) / 1000;
